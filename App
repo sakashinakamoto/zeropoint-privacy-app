@@ -1,0 +1,44 @@
+{
+“expo”: {
+“name”: “ZEROPOINT”,
+“slug”: “zeropoint-privacy-app”,
+“version”: “1.0.0”,
+“orientation”: “portrait”,
+“userInterfaceStyle”: “dark”,
+“backgroundColor”: “#0A0A0A”,
+“splash”: {
+“backgroundColor”: “#0A0A0A”,
+“resizeMode”: “contain”
+},
+“assetBundlePatterns”: [
+“**/*”
+],
+“ios”: {
+“supportsTablet”: false,
+“bundleIdentifier”: “com.zeropoint.privacyapp”,
+“infoPlist”: {
+“NSLocationWhenInUseUsageDescription”: “ZEROPOINT needs to know your location permission status to manage it. ZEROPOINT never accesses your actual location.”,
+“NSMicrophoneUsageDescription”: “ZEROPOINT needs to know your microphone permission status to manage it. ZEROPOINT never accesses your microphone.”,
+“NSCameraUsageDescription”: “ZEROPOINT needs to know your camera permission status to manage it. ZEROPOINT never accesses your camera.”,
+“NSBluetoothAlwaysUsageDescription”: “ZEROPOINT needs to know your Bluetooth permission status to manage it.”,
+“NSMotionUsageDescription”: “ZEROPOINT needs to know your motion permission status to manage it. ZEROPOINT never accesses motion data.”,
+“ITSAppUsesNonExemptEncryption”: false
+}
+},
+“android”: {
+“package”: “com.zeropoint.privacyapp”,
+“permissions”: [
+“android.permission.ACCESS_FINE_LOCATION”,
+“android.permission.RECORD_AUDIO”,
+“android.permission.CAMERA”,
+“android.permission.BLUETOOTH”,
+“android.permission.NFC”,
+“android.permission.ACTIVITY_RECOGNITION”
+]
+},
+“web”: {
+“favicon”: “./assets/favicon.png”,
+“backgroundColor”: “#0A0A0A”
+}
+}
+}

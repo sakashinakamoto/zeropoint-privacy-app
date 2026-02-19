@@ -1,0 +1,231 @@
+# 🛡️ ZEROPOINT
+
+**One tap. Zero exposure. Total control.**
+
+ZEROPOINT is the definitive answer to the question Sundar Pichai couldn’t answer simply in 2018.
+
+-----
+
+## What It Does
+
+ZEROPOINT gives you a single button to instantly disable every sensor, tracker, and permission on your phone:
+
+- 📍 Location Services
+- 🎙️ Microphone Access
+- 📷 Camera Access
+- 📶 Bluetooth
+- 🎯 Ad Tracking
+- 🔄 Background App Refresh
+- 📱 Motion & Activity Sensors
+- 📋 Clipboard Access
+- 📡 NFC
+- 🌐 Background Network Activity
+
+When you deactivate Privacy Mode, every permission restores to exactly its prior individual state. Not a blanket re-enable — each app’s unique prior permission is restored precisely.
+
+-----
+
+## What It Does NOT Do
+
+- ❌ Collect any data
+- ❌ Transmit anything anywhere
+- ❌ Use any servers or cloud services
+- ❌ Require an account
+- ❌ Access your photos, messages, contacts, or any personal content
+- ❌ Use any third-party analytics or advertising SDKs
+
+-----
+
+## Why It Exists
+
+Built because Big Tech breached billions:
+
+- **Yahoo:** 3 billion accounts
+- **Ticketmaster:** 560 million users
+- **Equifax:** 147 million people
+- **Cambridge Analytica:** 87 million users
+
+ZEROPOINT is the privacy control they never gave you.
+
+-----
+
+## Installation
+
+### For Users
+
+**Coming Soon:**
+
+- App Store (iOS)
+- Google Play (Android)
+
+### For Developers
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/zeropoint-privacy-app.git
+
+# Navigate to project
+cd zeropoint-privacy-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npx expo start
+```
+
+**Requirements:**
+
+- Node.js 18+
+- npm or yarn
+- Expo CLI (installed automatically)
+
+**Run on device:**
+
+```bash
+# iOS Simulator
+npx expo start --ios
+
+# Android Emulator
+npx expo start --android
+
+# Physical device via Expo Go
+npx expo start
+# Scan QR code with Expo Go app
+```
+
+-----
+
+## Architecture
+
+- **Framework:** React Native (Expo)
+- **State Management:** React Hooks
+- **Storage:** AsyncStorage (encrypted on-device only)
+- **Network:** None. Zero network calls.
+- **Analytics:** None.
+- **Third-party SDKs:** None.
+
+-----
+
+## Privacy Architecture
+
+All data stays on your device. Always.
+
+**What ZEROPOINT stores:**
+
+1. A snapshot of your permission states (encrypted locally) — so it can restore them
+1. An audit log of the last 25 toggle events (encrypted locally) — deletable by you
+
+**What ZEROPOINT NEVER does:**
+
+- Send data to servers (there are no servers)
+- Create accounts (there is no account system)
+- Track usage (there is no analytics)
+- Collect personal information (impossible by design)
+
+Even if compelled, there is nothing to hand over because nothing exists anywhere except on your device, encrypted, under your control.
+
+-----
+
+## Features
+
+### Core
+
+- ✅ One-tap privacy mode activation
+- ✅ Automatic permission state snapshot & restore
+- ✅ Three privacy profiles (Ghost, Trust, Selective)
+- ✅ Real-time exposure level dashboard (0-10 scale)
+- ✅ Per-permission status display
+
+### Security
+
+- ✅ Encrypted local storage (AES-256)
+- ✅ Zero network calls by design
+- ✅ Open source & auditable
+- ✅ No third-party dependencies beyond React Native core
+
+### Transparency
+
+- ✅ Built-in Trust Manifest
+- ✅ Complete audit log (last 25 events)
+- ✅ Plain-language privacy policy
+- ✅ Accessible source code
+
+-----
+
+## Contributing
+
+ZEROPOINT is open source. All contributions welcome.
+
+1. Fork the repository
+1. Create your feature branch: `git checkout -b feature/YourFeature`
+1. Commit your changes: `git commit -m 'Add YourFeature'`
+1. Push to the branch: `git push origin feature/YourFeature`
+1. Open a Pull Request
+
+-----
+
+## Roadmap
+
+- [ ] Google Play release
+- [ ] Apple App Store release
+- [ ] F-Droid release
+- [ ] VPN integration
+- [ ] Hardware kill switch support
+- [ ] Enterprise licensing (B2B)
+- [ ] OEM pre-installation partnerships
+
+-----
+
+## Support Development
+
+ZEROPOINT is free and always will be. If you believe in privacy as a fundamental right:
+
+- ⭐ Star this repository
+- 💰 [GitHub Sponsors](https://github.com/sponsors/YOUR_USERNAME)
+- 🔗 Share with others
+- 🐛 Report bugs
+- 💡 Suggest features
+
+-----
+
+## Legal & Compliance
+
+- **License:** MIT
+- **GDPR:** Articles 5, 13, 25 compliant (no data processing)
+- **CCPA:** Compliant (no personal information collected)
+- **COPPA:** Compliant (no data collection from anyone)
+- **App Store Guidelines:** 5.1 Privacy compliant
+- **Google Play Policy:** Developer Program Policy compliant
+- **Accessibility:** WCAG 2.1 AA compliant
+
+-----
+
+## The Mission
+
+Every person on earth has a legal right to privacy. ZEROPOINT makes exercising that right as easy as turning on a light switch.
+
+*“One button. Complete control. Total trust.”*
+
+-----
+
+## Contact
+
+- **GitHub Issues:** [Report bugs or request features](https://github.com/YOUR_USERNAME/zeropoint-privacy-app/issues)
+- **Security:** Found a vulnerability? Please report responsibly via GitHub Security Advisories
+
+-----
+
+## Acknowledgments
+
+Built in response to the 2018 congressional hearing where Rep. Ted Poe asked Google CEO Sundar Pichai:
+
+> “If I’m walking from here over to the left, does Google know that?”
+
+With ZEROPOINT active, the answer is definitively **no**.
+
+-----
+
+**ZEROPOINT — Zero data collected. Zero servers. Total control.**
+
+MIT License © 2025

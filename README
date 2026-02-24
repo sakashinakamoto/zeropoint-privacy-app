@@ -62,7 +62,7 @@ ZEROPOINT is the privacy control they never gave you.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/zeropoint-privacy-app.git
+git clone https://github.com/sakashinakamoto/zeropoint-privacy-app.git
 
 # Navigate to project
 cd zeropoint-privacy-app
@@ -182,7 +182,7 @@ ZEROPOINT is open source. All contributions welcome.
 ZEROPOINT is free and always will be. If you believe in privacy as a fundamental right:
 
 - ⭐ Star this repository
-- 💰 [GitHub Sponsors](https://github.com/sponsors/YOUR_USERNAME)
+- 💰 [GitHub Sponsors](https://github.com/sponsors/sakashinakamoto)
 - 🔗 Share with others
 - 🐛 Report bugs
 - 💡 Suggest features
@@ -211,7 +211,7 @@ Every person on earth has a legal right to privacy. ZEROPOINT makes exercising t
 
 ## Contact
 
-- **GitHub Issues:** [Report bugs or request features](https://github.com/YOUR_USERNAME/zeropoint-privacy-app/issues)
+- **GitHub Issues:** [Report bugs or request features](https://github.com/sakashinakamoto/zeropoint-privacy-app/issues)
 - **Security:** Found a vulnerability? Please report responsibly via GitHub Security Advisories
 
 -----
